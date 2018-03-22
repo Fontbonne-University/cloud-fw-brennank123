@@ -22,10 +22,10 @@
                 <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Speakers<span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#speakers">Speakers<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Schedule<span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#schedule">Schedule<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-white" href="#">Link</a>
@@ -34,15 +34,11 @@
         <a class="navbar-brand text-white" href="#">Fontbonne</a>
     </div>
 </nav>
-<div class="jumbotron">
-    <h1 class="display-4">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
-</div> <-- Jumbotron ends -->
+<div class="jumbotron bg-info text-white">
+    <h1 class="display-2 text-lg-center">Machine Learning Conference</h1>
+    <p class="container text-sm-center">A one day conference for data scientists and developers to geek out about Machine Learning</p>
+</div> <!-- End jumbotron -->
+
 <div class="container pt-4">
     <div class="row">
         <div class="col-sm">
@@ -57,7 +53,7 @@
             <h3 class = "mb-4">Expert Speakers</h3>
             <p>Our expert speaker lineup was just announced, so don't wait to register!</p>
             <p>Meet the who's who in the industry and network with the world's top professionals, engineers, and developers.</p>
-            <p>This conference is super awesome, you should totally sign up</p>
+            <p>This conference is super awesome, you should totally sign up.</p>
         </div>
         <div class="col-sm">
             <h3 class = "mb-4">What you will learn:</h3>
@@ -69,12 +65,16 @@
         </div>
     </div> <!-- about ends here-->
     <!--Speakers -->
-    <h1 class = "display-4 text-center text-muted">Speakers</h1>
+    <h1 class = "display-4 text-center text-muted" id = "speakers">Speakers</h1>
     [speaker bios go here]
     <!--Schedule-->
-    <h1 class = "display-4 text-center text-muted">Schedule</h1>
+    <h1 class = "display-4 text-center text-muted" id = "schedule">Schedule</h1>
     [Conference schedule goes here]
+
+    <button type = "button" class = "btn btn-outline-info btn-lg d-block mx-auto my-5">Register Now!</button>
 </div><!--/.container ends here -->
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
